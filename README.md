@@ -13,7 +13,7 @@ ros2 launch stage_ros2 stage.launch.py world:=cave enforce_prefixes:=false one_t
 And in another terminal run:
 
 ```bash
-ros2 run stage_navigation stage_navigation_node.py
+ros2 run stage_navigation stage_navigation_node
 ```
 
 You can see how the algorithm works here: (https://youtu.be/ywFFFz1vUEI)

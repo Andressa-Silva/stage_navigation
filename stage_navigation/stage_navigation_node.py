@@ -348,8 +348,8 @@ class stage_navigation_node(Node):
 
         self.error_angle = self.normalize(self.heading)
         print('error_angle', self.error_angle)
-
-if __name__ == '__main__':
+        
+def main():
     rclpy.init(args=None)
 
     env = stage_navigation_node()
@@ -385,3 +385,6 @@ if __name__ == '__main__':
         if count_loop == 20:
             count_time += 1
             count_loop = 0
+
+if __name__ == '__main__':
+    main()
